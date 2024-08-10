@@ -1,0 +1,140 @@
+body {
+  background-image:url(https://downloadhdwallpapers.in/wp-content/uploads/2018/06/Crazy-Lightshow-Rave-Concert-Animated-Gif-Sweet.gif
+  );
+
+    background-repeat:repeat;
+    background-size:100%;
+    font-family: Arial, sans-serif;
+    text-align:center:left;
+    margin:auto;  }
+
+  .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(248, 167, 221);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: #ff3b38;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #ff3b38;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.album-art {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.album-art img {
+  width: 100%;
+  height: 100%;
+}
+
+.song-info {
+  flex: 1;
+}
+
+.song-title {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.artist-name {
+  color: #777;
+  font-size: 14px;
+}
+
+.controls {
+  display: flex;
+}
+
+.control-btn {
+  background-color: #ff3b38;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.control-btn:hover {
+  background-color: #e12723;
+}
+
+.control-btn.play-btn {
+  background-color: #333;
+  margin-right: 0;
+}
+
+.control-btn.play-btn:hover {
+  background-color: #222;
+}
+
+.progress {
+  height: 5px;
+  background-color: #ccc;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #ff3b38;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(208, 162, 23);
+  box-shadow: 0 -2px 5px rgba(214, 14, 14, 0.1);
+  text-align: center;
+  color: rgb(90, 6, 6);
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #153699;
+  text-decoration:double;
+}
